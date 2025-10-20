@@ -14,7 +14,6 @@ class CategoryHeader
 {
     private Registry $registry;
     private HttpRequest $request;
-
     private $layerResolver;
 
     public function __construct(Registry $registry, HttpRequest $httpRequest, Resolver $layerResolver)
