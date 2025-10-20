@@ -1,7 +1,8 @@
 {
   "name": "strekoza/module-header-type-page",
   "version": "1.0.0",
-  "description": "N/A",
+  "minimum-stability": "dev",
+  "description": "Magento module, Type of Page add to Header",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*",
