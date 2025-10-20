@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Controller\Product\View">
+        <plugin name="setProductTypePage" type="Strekoza\HeaderTypePage\Plugin\ProductHeader" sortOrder="100"
+                disabled="false"/>
+    </type>
+    <type name="Magento\Catalog\Controller\Category\View">
+        <plugin name="setCategoryTypePage" type="Strekoza\HeaderTypePage\Plugin\CategoryHeader" sortOrder="100"
+                disabled="false"/>
+    </type>
+    <type name="Magento\Cms\Controller\Page\View">
+        <plugin name="setCmsTypePage" type="Strekoza\HeaderTypePage\Plugin\CmsHeader" sortOrder="100"
+                disabled="false"/>
+    </type>
+    <type name="Magento\Cms\Controller\Index\Index">
+        <plugin name="setCmsTypePage" type="Strekoza\HeaderTypePage\Plugin\CmsHomeHeader" sortOrder="100"
+                disabled="false"/>
+    </type>
+</config>

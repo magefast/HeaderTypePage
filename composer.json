@@ -1,0 +1,22 @@
+{
+  "name": "strekoza/module-header-type-page",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "description": "Magento module, Type of Page add to Header",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "strekoza/module-archive-visibility": "^1.0.0"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Strekoza\\HeaderTypePage\\": ""
+    }
+  }
+}
